@@ -28,6 +28,7 @@ LLMs are run locally using [Ollama](https://ollama.ai).
   - [Conclusion](#conclusion)
 
 ## Features
+# great
 
 This app provides a number of features.
 
@@ -277,8 +278,6 @@ In addition to the above, this app aims to solve 3 problems, namely:
    - Providing a local Vector Store using Postgres to save
      your document embeddings to your local disk with Docker
      volumes
-   - Downloading open-source [ONNX](https://github.com/xenova/transformers.js) binaries to run embeddings
-     locally within the app, instead of remote models.
    - Using of local model weights with models such as [Mistral]
      running within Ollama, and your traffic not being
      sent to external servers.
