@@ -176,7 +176,7 @@ export const ChatMessage = forwardRef<HTMLDivElement, IChatMessageProps>(
                     <hr className='w-full border border-border/40 group-hover:border-red-500 dark:border-secondary/40' />
                   )}
                 </div>
-                <div className='group relative mt-4 hidden w-[calc(100%+32px)] xl:flex'>
+                <div className='group relative mt-4 hidden block w-[calc(100%+32px)] xl:flex'>
                   <div className='absolute right-[calc(-120px-24px)] block top-[-16px]'>
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>

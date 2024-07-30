@@ -1,4 +1,3 @@
-'use client';
 import { searchParamsRoomIdContext } from '@/lib/contexts/chatRoomSearchParamsContext';
 import { type IChatRoomContext, chatRoomContext } from '@/lib/contexts/chatRoomContext';
 
@@ -9,6 +8,7 @@ export const RoomIDProvider = ({
   roomId: string;
   children?: React.ReactNode;
 }) => {
+  // this component is very clear
   return (
     <searchParamsRoomIdContext.Provider value={{ roomId }}>
       {children}
