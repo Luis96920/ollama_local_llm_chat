@@ -193,8 +193,6 @@ that smaller models can perform decently when fine-tuned to
 certain prompt formats.
 
 For instance, Mistral 7B is fine tuned on an instructional
-format with **Instruction Tokens** (`[INST]`, `[/INST]`)
-that eliminate the need for complex prompting. They simply
 require the user to feed their instructions between the
 tokens, and the model will take it as an instruction and
 give an output accordingly.
