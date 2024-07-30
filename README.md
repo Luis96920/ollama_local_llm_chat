@@ -11,8 +11,6 @@ This ensures that the data stays on the user's device, as well as the history
 of the chats and documents remain when the user shuts down or restarts the
 application/their computer.
 
-LLMs are run locally using [Ollama](https://ollama.ai).
-
 ## Table of Contents 📚
 
 - [Features](#features)
@@ -188,22 +186,9 @@ To change the metadata store, you may adjust the
 [dbInstance.ts](/src/lib/db/dbInstance.ts) file
 parameters for your database connection parameters.
 
-## Motivation
-
-With [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) on the rise, models such as
-[Anthropic's Claude](https://claude.ai/) and [ChatGPT](https://chat.openai.com/) are all the rage. However,
-they can only run on servers run by external parties and
-data is sent over the wire to them.
-
-While they may be powerful, often times they are overpowered
-for simple applications like code generation, small tasks
-and analysis of small documents. This is where smaller
-models that are open-source come in.
-
 ### Fine Tuning
 
 With instructional fine-tuning and sliding context windows,
-smaller models such as Mistral AI's [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) demonstrate
 that smaller models can perform decently when fine-tuned to
 certain prompt formats.
 
